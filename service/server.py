@@ -39,7 +39,7 @@ def route_forwarding(path):
     else:
         problem = {'status': 404,
                    'title': 'Not Found',
-                   'detail': '{} not found'.format(path),
+                   'detail': '/{} not found'.format(path),
                    'type': 'about:blank'}
         return Response(json.dumps(problem),
                         status=404,
