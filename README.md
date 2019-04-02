@@ -25,4 +25,4 @@ docker run --rm --network appnet -p 80:8080 coin_and_purse_gateway:0.1.0
 
 | Version | Comment|
 | ---:|:---|
-| 0.1.0 | Initial Commit |
+| 0.1.0 | Python flask implementation of route forwarding to ledger and browser client services. |
