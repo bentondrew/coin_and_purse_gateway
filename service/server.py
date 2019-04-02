@@ -21,7 +21,7 @@ def route_forwarding(path):
     forward_path = ('http://{}/{}')
     host = ''
     if 'ledger' in path:
-        host = 'ledgerapi'
+        host = 'ledgerapi:8080'
     if host:
         forward_path = forward_path.format(host, path)
         forward_response = requests.request(
